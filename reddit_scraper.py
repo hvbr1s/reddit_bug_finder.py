@@ -22,7 +22,7 @@ reddit = praw.Reddit(
 # Define the subreddit
 subreddit = reddit.subreddit('ledgerwallet')
 
-# Get the date 7 days ago
+# Get the date n days ago
 seven_days_ago = datetime.utcnow() - timedelta(days=2)
 
 # Get today's date as a string
